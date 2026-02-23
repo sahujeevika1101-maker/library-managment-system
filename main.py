@@ -2,11 +2,10 @@
 
 # Book Class
 class Book:
-    def __init__(self, title, author,)
+    def __init__(self, title, author, is_available):
         self.title = title
         self.author = author
-        self.isbn = isbn
-        self.is_available = True
+        self.is_available = is_available
 
 # user class
 class User:
